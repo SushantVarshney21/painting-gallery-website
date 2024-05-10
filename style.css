@@ -71,10 +71,10 @@ body,html{
 }
 #hero{
     width: 100%;
-    background-image: url(image/images\ \(1\).jpg);
+    background-image: url(image/hero\ main1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -85,6 +85,7 @@ body,html{
 #hero h2{
     font-size: 70px;
     font-weight: bolder;
+    color: #088178;
 }
 
 #hero p{
@@ -103,6 +104,12 @@ body,html{
     margin-top: 16px;
     font-size: 18px;
     font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #395F60;
+    border-radius: 16px;
+    border-bottom-right-radius: 0px;
 }
 
 #categories{
@@ -132,7 +139,7 @@ body,html{
 #categories .card{
     height: 380px;
     width: 300px;
-    background: url(image/painting.webp);
+    background: url(image/oil.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -141,47 +148,49 @@ body,html{
     justify-content: center;
     margin: 18px 25px;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 #categories .card:nth-child(2){
-    background: url(image/abstract.jpg);
+    background: url(image/cement.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #categories .card:nth-child(3){
-    background: url(image/graffitt.jpg);
+    background: url(image/Anti-corrosion.avif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #categories .card:nth-child(4){
-    background: url(image/photos.jpg);
+    background: url(image/bituminous.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #categories .card:nth-child(5){
-    background: url(image/featured\ prints.jpg);
+    background: url(image/eggshell.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #categories .card:nth-child(6){
-    background: url(image/pop\ art.jpg);
+    background: url(image/emulsion.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 #categories .card:hover{
     filter: grayscale(1.5);
+    border-radius: 22px;
 }
 
 
 #categories .info{
     position: absolute;
     background-color: #fff;
-    bottom: 25px;
+    bottom: 35px;
     padding: 12px 18px;
     color: #000;
     font-size: 18px;
@@ -217,13 +226,15 @@ body,html{
 }
 
 #art-sec .right h2{
-    font-size: 55px;
+    font-size: 40px;
     font-weight: bold;
+    color: #088178;
 }
 
 #art-sec .right p{
-    font-size: 22px;
+    font-size: 18px;
     width: 70%;
+    margin: 12px 0px;
 }
 
 
