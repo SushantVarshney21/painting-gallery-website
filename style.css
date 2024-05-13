@@ -568,7 +568,7 @@ body,html{
 
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 799px) {
    #hero{
     padding-top: 30%;
     width: 140vw;
