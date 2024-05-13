@@ -505,7 +505,7 @@ body,html{
 
 #chat{
     /* position: absolute; */
-    right: 12px;
+    right: 30px;
     bottom: 12px;
     position: fixed;
     display: flex;
@@ -700,6 +700,10 @@ body,html{
    }
    .footer h4, h3,h2,p,li{
     text-align: left;
+   }
+   #chat{
+    bottom: 30px;
+    position: fixed;
    }
   }
 
