@@ -662,7 +662,10 @@ body,html{
     padding-right: 0px;
     width: 140vw;
    }
-   #service h2,h4,p{
+   #service h2,h4{
+    text-align: center;
+   }
+   #service p{
     text-align: center;
    }
    .about-us{
