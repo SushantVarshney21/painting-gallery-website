@@ -109,6 +109,24 @@ a{
     text-transform: uppercase;
 }
 
+.touch-btn{
+    position: absolute;
+    top: 15%;
+    right: 40px;
+    padding: 12px 18px;
+    border: none;
+    background-color: #266fd6;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.touch-btn:hover{
+    background-color: #4280d6;
+    border-top-right-radius: 0px;
+}
+
 .btn{
     border: none;
     padding: 12px 22px;
