@@ -13,6 +13,15 @@ body,html{
     height: 100%;
     /* position: relative; */
 }
+a{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #000;
+}
 
 #header {
     display: flex;
@@ -609,7 +618,7 @@ body,html{
     #header{
         padding-right:4px ;
         padding-left: 4px;
-        width: 89%;
+        width: 91%;
     }
    #hero{
     padding-top: 30%;
