@@ -715,6 +715,10 @@ a{
    #contact .left{
     width: 100%;
    }
+   #contact .left h2{
+    font-size: 45px;
+    font-weight: bold;
+}
    #contact .left p{
     text-align: center;
     width: 100%;
