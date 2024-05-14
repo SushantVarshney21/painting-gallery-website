@@ -115,7 +115,8 @@ a{
     right: 40px;
     padding: 12px 18px;
     border: none;
-    background-color: #0e9ca5;
+    background-color: #06cad8;
+    color: #fff;
     font-size: 17px;
     font-weight: bold;
     border-radius: 12px;
@@ -124,7 +125,7 @@ a{
     z-index: 888;
 }
 .touch-btn:hover{
-    background-color: #3ecad4d3;
+    background-color: #0b3c3fd3;
     border-top-right-radius: 0px;
 }
 
@@ -704,12 +705,13 @@ a{
     right: 20px;
     padding: 10px 16px;
     border: none;
-    background-color:  #0e9ca5;
+    background-color:  #06cad8;
     font-size: 12px;
     font-weight: bold;
     border-radius: 12px;
     cursor: pointer;
     transition: 0.5s;
+    color: #fff;
 }
    #categories{
     padding: 40px 20px;
@@ -811,6 +813,7 @@ a{
    }
    .footer .third{
     width: 100%;
+    margin-left: 10px;
    }
    .footer h4, h3,h2,p,li{
     text-align: left;
