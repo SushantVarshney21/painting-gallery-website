@@ -12,6 +12,7 @@ body,html{
     width: 100%;
     height: 100%;
     /* position: relative; */
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -118,6 +119,7 @@ a{
     font-size: 18px;
     font-weight: bold;
     transition: 0.3s;
+    cursor: pointer;
 }
 .btn:hover{
     background-color: #395F60;
@@ -126,8 +128,10 @@ a{
 }
 
 #categories{
-    padding: 40px 80px;
+    padding: 60px 80px;
     width: 100%;
+    margin-top: 60px;
+    background-color: rgba(189, 185, 185, 0.24);
 }
 
 #categories h3, #categories p{
@@ -220,8 +224,10 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 80px;
+    padding: 60px 80px;
     width: 100%;
+    margin-top: 28px;
+    background-color: #A7C7E7;
 }
 
 #art-sec .left{
@@ -253,14 +259,25 @@ a{
     margin: 12px 0px;
 }
 
+#art-sec .btn{
+    background-color: 	#00FFFF;
+    color: black;
+}
+
+#art-sec .btn:hover{
+    background-color: 	#34a5a5;
+
+}
+
 #contact{
-    padding: 40px 80px;
+    padding: 60px 80px;
     /* background-color: rgba(172, 170, 170, 0.541); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
+    margin-top: 28px;
 }
 #contact  h2 , #service h2{
     font-size: 35px;
@@ -326,14 +343,22 @@ a{
     border-radius: 12px;
     outline: none;
 }
+#contact .right form .btn{
+    background-color: 	#00A36C;
+}
+
+#contact .right form .btn:hover{
+    background-color: 	#2cad82;
+}
 #service{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background-color: rgba(189, 185, 185, 0.075);
-    padding: 40px 80px;
+    background-color: rgba(189, 185, 185, 0.397);
+    padding: 60px 80px;
     width: 100%;
+    margin-top: 28px;
 }
 
 #service h4{
@@ -397,11 +422,13 @@ a{
 
 
 .about-us{
+    background-color: #8fada68a;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 80px;
+    padding: 60px 80px;
     width: 100%;
+    margin-top: 45px;
 }
 .about-us .left{
     width: 50%;
@@ -448,6 +475,15 @@ a{
     object-fit: cover;
 }
 
+.about-us .btn{
+    background-color: 	#0047AB;
+}
+
+.about-us .btn:hover{
+    background-color: 	#266fd6;
+
+}
+
 
 
 
@@ -460,6 +496,7 @@ a{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-top: 28px;
 }
 
 .footer .first{
