@@ -115,7 +115,7 @@ a{
     right: 40px;
     padding: 12px 18px;
     border: none;
-    background-color: #266fd6;
+    background-color: #0e9ca5;
     font-size: 17px;
     font-weight: bold;
     border-radius: 12px;
@@ -124,7 +124,7 @@ a{
     z-index: 888;
 }
 .touch-btn:hover{
-    background-color: #4280d6;
+    background-color: #3ecad4d3;
     border-top-right-radius: 0px;
 }
 
@@ -149,7 +149,7 @@ a{
 #categories{
     padding: 60px 80px;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 0px;
     background-color: rgba(189, 185, 185, 0.24);
 }
 
@@ -245,7 +245,7 @@ a{
     justify-content: space-between;
     padding: 60px 80px;
     width: 100%;
-    margin-top: 28px;
+    margin-top: 0px;
     background-color: #A7C7E7;
 }
 
@@ -296,7 +296,7 @@ a{
     justify-content: space-between;
     flex-direction: column;
     width: 100%;
-    margin-top: 28px;
+    margin-top: 20px;
 }
 #contact  h2 , #service h2{
     font-size: 35px;
@@ -377,7 +377,7 @@ a{
     background-color: rgba(189, 185, 185, 0.397);
     padding: 60px 80px;
     width: 100%;
-    margin-top: 28px;
+    margin-top: 0px;
 }
 
 #service h4{
@@ -447,7 +447,7 @@ a{
     justify-content: space-between;
     padding: 60px 80px;
     width: 100%;
-    margin-top: 45px;
+    margin-top: 0px;
 }
 .about-us .left{
     width: 50%;
@@ -507,35 +507,39 @@ a{
 
 
 .footer{
-    padding: 5px 80px 50px 80px;
+    padding: 50px 80px;
     /* background:linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%); */
     background-color: #5FA796;
     color: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     margin-top: 28px;
 }
 
+
+
 .footer .first{
-    width: 35%;
+    width: 32%;
+    height: 300px;
 }
 
 .footer .second{
     width: 25%;
+    height: 300px;
+    margin-left: 10px;
 }
 
 .footer .second:nth-child(odd){
-    margin-top: 18px;
     margin-left: 18px;
 }
 
 
 .footer .third{
     width: 25%;
+    height: 300px;
     margin-left: 70px;
-    margin-top: 60px;
 }
 .footer .third h4{
     font-size: 35px;
@@ -694,13 +698,14 @@ a{
     display: none;
    }
    .touch-btn{
+    width: 17%;
     position: absolute;
     top: 10%;
     right: 20px;
     padding: 10px 16px;
     border: none;
-    background-color: #266fd6;
-    font-size: 14px;
+    background-color:  #0e9ca5;
+    font-size: 12px;
     font-weight: bold;
     border-radius: 12px;
     cursor: pointer;
