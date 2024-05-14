@@ -121,6 +121,7 @@ a{
     border-radius: 12px;
     cursor: pointer;
     transition: 0.5s;
+    z-index: 888;
 }
 .touch-btn:hover{
     background-color: #4280d6;
@@ -692,6 +693,19 @@ a{
     font-size: 14px;
     display: none;
    }
+   .touch-btn{
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #266fd6;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
    #categories{
     padding: 40px 20px;
     padding-right:0px ;
