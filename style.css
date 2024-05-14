@@ -25,6 +25,7 @@ body,html{
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
 }
 
 #navbar ul {
@@ -598,20 +599,26 @@ body,html{
 
 
 @media screen and (max-width: 1100px) {
+    #header{
+        padding-right:4px ;
+        padding-left: 4px;
+        width: 70%;
+    }
    #hero{
     padding-top: 30%;
-    width: 140vw;
+    width: 100%;
    }
    #hero h2{
     font-size: 40px;
    }
    #hero p{
-    font-size: 14px;
+    font-size: 14+px;
+    display: none;
    }
    #categories{
     padding: 40px 20px;
     padding-right:0px ;
-    width: 140vw;
+    width: 100%;
    }
    #art-sec{
     width: 140vw;
@@ -633,7 +640,7 @@ body,html{
     text-align: left;
    }
    #contact{
-    width: 140vw;
+    width: 100%;
     padding: 20px 20px;
    }
    #contact h2{
@@ -672,7 +679,7 @@ body,html{
     flex-direction: column;
     padding: 40px 20px;
     padding-right: 0px;
-    width: 140vw;
+    width: 100%;
    }
    .about-us .left{
     width: 100%;
@@ -689,7 +696,7 @@ body,html{
     justify-content: flex-start;
     padding: 40px 20px;
     padding-right: 0px;
-    width: 140vw;
+    width: 100%;
    }
    .footer .first{
     width: 100%;
