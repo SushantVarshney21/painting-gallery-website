@@ -714,6 +714,9 @@ a{
    .about-us .left p{
     text-align: left;
    }
+   #contact .right form input{
+    width: 150%;
+   }
    .footer{
     flex-direction: column;
     justify-content: flex-start;
