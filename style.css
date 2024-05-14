@@ -9,8 +9,9 @@
 }
 
 body,html{
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    /* position: relative; */
 }
 
 #header {
@@ -25,7 +26,7 @@ body,html{
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
+    width: 1024px;
 }
 
 #navbar ul {
@@ -72,7 +73,7 @@ body,html{
     display: none;
 }
 #hero{
-    width: 100%;
+    width: 1024px;
     background-image: url(image/hero\ main1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -723,4 +724,25 @@ body,html{
     position: fixed;
    }
   }
+
+
+
+
+  @media (max-width: 768px) {
+    #hero {
+        background-size: cover;
+        padding: 5%;
+        padding-top: 10%;
+    }
+
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    #hero p {
+        font-size: 14px;
+        width: 60%;
+    }
+}
+
 
